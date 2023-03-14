@@ -1,0 +1,107 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+/* Body */
+body{
+    margin: 0;
+    line-height:1.7;
+    font-family: "Helvetica Neue", Helvetica, sans-serif;
+    font-size: 17px;
+    color: #926239;
+   
+}
+/* Header */
+#head{
+    background-image:url("/assets/img/beach.jpg");
+    background-size:cover;
+    background-position:center;
+    justify-content: center;
+    flex-direction: column;
+    height: 100vh;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    padding: 0 20px;
+}
+.h1_big{
+    font-size: 50px;
+    line-height:1.5;
+}
+
+.p1{
+    font-size: 20px;
+}
+.btn{
+    font-size: 18px;
+    color: #926239;
+    border: #926239 1px solid;
+    padding: 15px;
+    border-radius: 10px;
+    margin-top: 20px;
+    text-decoration: none;
+}
+.btn:hover{
+    color: #fff;
+    background: #926239;
+}
+/* Section */
+#a{
+    padding: 20px;
+    background:#926239 ;
+    color: #fff;
+    text-align: center;
+}
+#b{
+    padding: 20px;
+    background: #f4f4f4;
+    text-align: center;
+}
+#c{
+    display: flex;
+}
+/* Cases in last Section */
+.case_1,.case_2,.case_3{
+    padding: 20px;
+}
+.case_1,.case_3{
+    background: #926239;
+    color: #fff;
+}
+.case_2{
+    background: #f4f4f4;
+}
+/* Footer */
+
+footer{
+    border-top: #000 2px solid;
+    padding: 20px;
+    background: #f4f4f4;
+    height: 36vh;
+}
+
+.footer_link{
+    font-size: 21px;
+    color: #7a7979;
+    text-decoration: none;
+    transition: color .2s linear;
+}
+
+.footer_link:hover{
+    color: #000;
+    text-decoration: underline;
+
+}
+
+.footer_h{
+    color: #a9a9a9;
+    font-size: 25px;
+}
+.footer_p{
+    text-align: center;
+    font-size: 15px;
+    color: #000;
+}
+li{
+    list-style: none;
+}
